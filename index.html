@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ANC Patna | Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      margin: 0;
+    }
+    nav {
+      background: #1e2a38;
+      padding: 12px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      background: #fff;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    header img {
+      width: 100px;
+    }
+    .main-image {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      margin: 20px 0;
+      border-radius: 10px;
+    }
+    p {
+      text-align: justify;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    h2 {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="courses.html">Courses</a>
+    <a href="about.html">About</a>
+    <a href="index.html#gallery">Gallery</a>
+  </nav>
+
+  <div class="container">
+    <header>
+      <img src="icon/logo_ancpat.png" alt="ANC Logo" />
+    </header>
+
+    <p>
+      The Department of Labour and Social Welfare at Anugrah Narayan College, Patna is dedicated to the study and promotion of labor rights, social justice, and public welfare. Our mission is to provide students with academic excellence and practical knowledge in the fields of labor studies, human rights, and welfare policies.
+    </p>
+
+    <img src="icon/1.jpg" class="main-image" alt="Department Building">
+
+    <!-- Paragraph added beneath the image -->
+    <p>
+      This image represents the core spirit of the department—dedicated to fostering critical thinking, field-based learning, and building a socially aware student community. Our students actively participate in seminars, community outreach, and research initiatives, contributing to meaningful change in society.
+    </p>
+    <hr>
+
+    <h2 id="gallery">Gallery</h2>
+    <div class="gallery">
+      <img src="icon/IMG-20250715-WA0007.jpg" />
+      <img src="icon/IMG-20250715-WA0004.jpg" />
+      <img src="icon/IMG-20250715-WA0006.jpg" />
+      <img src="icon/IMG-20250715-WA0005.jpg" />
+      <img src="icon/IMG-20250715-WA0003.jpg" />
+      <img src="icon/IMG-20250715-WA0001.jpg" />
+    </div>
+  </div>
+</body>
+</html>
